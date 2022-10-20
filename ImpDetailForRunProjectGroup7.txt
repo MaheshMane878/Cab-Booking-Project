@@ -1,0 +1,67 @@
+CabBoking Project Group7 (Payal & Mahesh)
+
+-------------------------------------------------------------------------------------
+			  FOR FRONT-END
+
+ 
+1 - Create new Angular Project 
+    command:- ng g new ProjectName
+
+2 - copy "src" file and paste it into new Angular project or replace it 
+
+3 - install bootstrap 4
+    command:- npm i bootstrap@4.1.1
+
+4 - install fontawesone
+    command:- npm i font-awesome
+
+
+5-   for pdf download install tml2canvas & jsPDF
+	command :- npm i tml2canvas
+		:- npm i import jsPDF
+
+6 - go to >> tsconfig.json >> change false to "strict" do->("strict": false)
+--------------------------------------------------------------------------------------
+
+Admin login 
+
+username :- admin
+password :- admin123
+
+User login 
+
+username :- email 
+pass :- password from database
+
+---------------------------------------------------------------------------------------
+
+					FOR BACK-END
+
+
+1 - Run the Spring-boot Project 
+
+2 - test the API using Postman tool 
+
+3 - Check spring security(formBase) to check role for respective api
+
+4 - to save username & Password in postman -> go to > authorization > click on type > select basic auth > save username & Password in feild
+
+5 - to find Token -> go to > Cookies > check XSRF-TOKEN in Name Section > copy this XSRF-TOKEN name & its value > paste it into below location point 6
+
+6 - to save Token -> go to > paste "X-XSRF-TOKEN" in Key field > and paste value in value field
+
+7 - send the request from Postman
+
+
+
+
+
+
+
+
+
+
+
+
+
+
